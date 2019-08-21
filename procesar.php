@@ -63,7 +63,7 @@ function verificarToken($token, $claveSecreta)
     # Los datos que enviamos a Google
     $datos = [
         "secret" => $claveSecreta,
-        "response" => "asd",
+        "response" => $token,
     ];
     // Crear opciones de la petición HTTP
     $opciones = array(
